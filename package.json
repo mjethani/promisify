@@ -1,0 +1,26 @@
+{
+  "name": "node-style-promisify",
+  "version": "0.1.0",
+  "description": "Convert any Node.js-style callback API into a function that returns an ES6 promise",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjethani/promisify.git"
+  },
+  "keywords": [
+    "es6",
+    "promise",
+    "node",
+    "callback"
+  ],
+  "author": {
+    "name": "Manish Jethani",
+    "email": "manish.jethani@gmail.com",
+    "url": "http://manishjethani.com/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjethani/promisify/issues"
+  },
+  "homepage": "https://github.com/mjethani/promisify#readme"
+}
