@@ -1,19 +1,14 @@
-all: build
-
-build: babel_flags += -s
-
-build:
-	babel $(babel_flags) -d build src
+all:
 
 .npmignore: .gitignore
-	sort -ru .gitignore | grep -v '^build$$' > .npmignore
+	sort -ru .gitignore > .npmignore
 	echo '.gitignore .npmignore Makefile' | tr ' ' '\n' >> .npmignore
 
-publish: build .npmignore
+publish: .npmignore
 	npm publish
 
 clean:
-	rm -rf build .npmignore
+	rm -rf .npmignore
 
-.PHONY: clean build publish
+.PHONY: clean publish
 

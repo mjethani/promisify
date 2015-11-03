@@ -1,7 +1,4 @@
 *.swp
 
-node_modules
-
-build
 .npmignore
 

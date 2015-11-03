@@ -1,3 +1,11 @@
+## Installation
+
+```console
+$ npm i node-style-promisify
+node-style-promisify@0.1.1 node_modules/node-style-promisify
+$ 
+```
+
 ## Example
 
 ```javascript
@@ -21,5 +29,5 @@ readFile('file.txt', 'utf8').then(([ data ]) => {
  *  `thisArg` The value of `this` to be passed to `func` when it is called
  *  `func` The function to call via the wrapper
 
-Returns a wrapper around `func` that returns a [`Promise`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise) object when called.
+Returns a wrapper around `func` that returns a `Promise` object when called.
 

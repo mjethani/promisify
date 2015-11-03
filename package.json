@@ -1,6 +1,6 @@
 {
   "name": "node-style-promisify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert any Node.js-style callback API into a function that returns an ES6 promise",
   "main": "index.js",
   "repository": {
